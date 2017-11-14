@@ -4,18 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
-
 body {
     overflow-x: hidden;
 }
 
-.sub{
-  width: 50px;
-  height: 50px;
-  float: left;
-  text-align: center;
-  padding: 10px 15px 0 0;
+.sub {
+    width: 50px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    padding: 10px 15px 0 0;
 }
 
 p {
@@ -35,12 +33,10 @@ a.active {
     color: #18bc9c;
 }
 
-.mail{
+.mail {
     color: white;
     font-size: 20px;
 }
-
-
 
 h1,
 h2,
@@ -49,7 +45,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -115,7 +111,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -130,11 +126,9 @@ header .intro-text .skills {
         padding-top: 200px;
         padding-bottom: 100px;
     }
-
     header .intro-text .name {
         font-size: 4.75em;
     }
-
     header .intro-text .skills {
         font-size: 1.75em;
     }
@@ -147,18 +141,15 @@ header .intro-text .skills {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-
     .navbar-fixed-top .navbar-brand {
         font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
-
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
@@ -166,7 +157,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -214,14 +205,13 @@ section.success a.active {
     section {
         padding: 75px 0;
     }
-
     section.first {
         padding-top: 75px;
     }
-        .navbar-brand {
-    padding: 32px 15px;
-    font-size: 13px;
-}
+    .navbar-brand {
+        padding: 32px 15px;
+        font-size: 13px;
+    }
 }
 
 #portfolio .portfolio-item {
@@ -241,7 +231,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(24, 188, 156, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -279,7 +269,6 @@ section.success a.active {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-
 }
 
 .btn-outline {
@@ -332,10 +321,10 @@ section.success a.active {
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group:not(:first-child) {
@@ -408,8 +397,6 @@ footer .footer-below {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 28px;
 }
 
 .scroll-top .btn:focus {
@@ -481,7 +468,21 @@ footer .footer-below {
 }
 
 .top-buffer {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
+@media(max-width:375px) {
+    .navbar-toggle {
+    margin: 10px 10px 0 0px;
+            padding: 5px 5px;
+    }
+    .navbar-brand {
+        padding: 23px 8px;
+    }
+}
 
+@media(max-width:320px) {
+    .navbar-brand {
+        font-size: 11px;
+    }
+}
