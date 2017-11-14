@@ -479,6 +479,10 @@ footer .footer-below {
     .navbar-brand {
         padding: 23px 8px;
     }
+    .sub{
+    height: 94px;
+    padding: 3px 15px 0 0;
+    }
 }
 
 @media(max-width:320px) {
