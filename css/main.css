@@ -161,6 +161,10 @@ section.success a.active {
   section.first {
     padding-top: 75px;
   }
+  .navbar-brand {
+    padding: 32px 15px;
+    font-size: 13px;
+  }
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -208,6 +212,10 @@ section.success a.active {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+  }
+  .navbar-brand {
+    padding: 32px 15px;
+    font-size: 13px;
   }
 }
 .btn-outline {

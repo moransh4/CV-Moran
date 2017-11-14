@@ -210,6 +210,10 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+        .navbar-brand {
+    padding: 32px 15px;
+    font-size: 13px;
+}
 }
 
 #portfolio .portfolio-item {
@@ -267,6 +271,7 @@ section.success a.active {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+
 }
 
 .btn-outline {
@@ -470,3 +475,5 @@ footer .footer-below {
 .top-buffer {
     margin-top:20px;
 }
+
+
